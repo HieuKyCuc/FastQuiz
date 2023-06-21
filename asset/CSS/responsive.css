@@ -1,0 +1,32 @@
+@media screen and (max-width: 375px) {
+  .header {
+    left: -10%;
+  }
+
+  .container {
+    position: relative;
+    left: -14%;
+  }
+
+  .container .home {
+    left: -43%;
+  }
+
+  .home-content h1 {
+    text-align: center;
+  }
+
+  .quiz-section {
+    left: -43%;
+    width: 50%;
+  }
+
+  .quiz-section.active {
+    left: 52px;
+  }
+
+  .popup-info {
+    width: 350px;
+    max-height: 100vh;
+  }
+}

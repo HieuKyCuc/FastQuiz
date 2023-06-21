@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./asset/CSS/styles.css" />
+    <link rel="stylesheet" href="./asset/CSS/responsive.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./asset/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./asset/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./asset/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./asset/img/site.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <form action="">
+          <h2 class="logo"><i class="bx bxs-invader"></i>Quiz</h2>
+        </form>
+        <!-- <nav class="navbar">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </nav> -->
+      </header>
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Quiz</h1>
+            <div class="quiz-header">
+              <span>Quiz WEBSITE</span>
+              <span class="header-score">Điểm: 0 / 5</span>
+            </div>
+            <h2 class="question-text">Conga là gì?</h2>
+            <div class="option-list">
+              <!-- <div class="option">
+                <span>A. Con gà</span>
+              </div>
+              <div class="option">
+                <span>B. Con gá</span>
+              </div>
+              <div class="option">
+                <span>C. Con gả</span>
+              </div>
+              <div class="option">
+                <span>D. Con ga</span>
+              </div> -->
+            </div>
+
+            <div class="quiz-footer">
+              <span class="question-total">1 of 5</span>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+          <div class="result-box">
+            <h2>Kết quả</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+              <span class="score-text">Tổng điểm là 0 trên 5</span>
+            </div>
+            <div class="buttons">
+              <button class="tryAgain-btn">Thử lại</button>
+              <button class="goHome-btn">Về trang chính</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="home">
+          <div class="home-content">
+            <h1>Quiz WEBSITE</h1>
+            <p>Chào mừng congaconsiuga đã đến với trang đố gà.</p>
+            <button class="start-btn">Bắt đầu</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="popup-info">
+      <h2>Quiz Guide</h2>
+      <span class="info">1. Chọn đáp án đúng nhất.</span>
+      <span class="info">2. Chỉ được chọn 1 lần không được chọn lại.</span>
+      <span class="info"
+        >3. Bấm Next nếu đã chọn xong để đến câu tiếp theo.</span
+      >
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Thoát</button>
+        <a href="#" class="info-btn continue-btn">Tiếp tục</a>
+      </div>
+    </div>
+    <script src="./asset/JS/questions.js"></script>
+    <script src="./asset/JS/script.js"></script>
+  </body>
+</html>
