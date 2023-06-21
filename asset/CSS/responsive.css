@@ -27,6 +27,37 @@
 
   .popup-info {
     width: 350px;
-    max-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header {
+    left: -7%;
+  }
+
+  .container {
+    position: relative;
+    left: -10%;
+  }
+
+  .container .home {
+    left: -45%;
+  }
+
+  .home-content h1 {
+    text-align: center;
+  }
+
+  .quiz-section {
+    left: -61%;
+    width: 50%;
+  }
+
+  .quiz-section.active {
+    left: 40px;
+  }
+
+  .popup-info {
+    width: 350px;
   }
 }
